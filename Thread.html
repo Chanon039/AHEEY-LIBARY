@@ -94,6 +94,36 @@
         <div class="container">
             <div class="d-flex justify-content-between">
                 <div class="fs-4 fw-bold">กระทู้</div>
+                <button type="button" class="btn btn-success mb-2" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                    data-bs-whatever="@mdo">สร้างกระทู้ใหม่</button>
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">กระทู้ใหม่</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                <form>
+                                    <div class="mb-3">
+                                        <label for="recipient-name" class="col-form-label">หัวข้อ</label>
+                                        <input type="text" class="form-control" id="recipient-name">
+                                    </div>
+                                    <div class="mb-3">
+                                        <label for="message-text" class="col-form-label">ข้อความ</label>
+                                        <textarea class="form-control" id="message-text"></textarea>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">ยกเลิก</button>
+                                <button type="button" class="btn btn-success" data-bs-dismiss="modal">สร้าง</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div class="dropdown">
                     <button class="btn btn-link text-decoration-none text-black dropdown-toggle" type="button"
                         id="dropdownMenuButton1" data-bs-toggle="dropdown" aria-expanded="false">
@@ -138,7 +168,8 @@
                     </div>
                     <div class="row g-0 bg-light position-relative">
                         <div class="col-md-2 mb-md-0 p-md-4">
-                            <img src="https://www.cp.eng.chula.ac.th/books/wp-content/uploads/sites/5/2018/08/python_cover_v2.png" class="w-100 h-100" alt="...">
+                            <img src="https://www.cp.eng.chula.ac.th/books/wp-content/uploads/sites/5/2018/08/python_cover_v2.png"
+                                class="w-100 h-100" alt="...">
                         </div>
                         <div class="col-md-6 p-4 ps-md-0">
                             <h5 class="mt-0">หัวข้อ</h5>
@@ -150,7 +181,8 @@
                     </div>
                     <div class="row g-0 bg-light position-relative">
                         <div class="col-md-2 mb-md-0 p-md-4">
-                            <img src="https://www.cp.eng.chula.ac.th/books/wp-content/uploads/sites/5/2018/08/python_cover_v2.png" class="w-100 h-100" alt="...">
+                            <img src="https://www.cp.eng.chula.ac.th/books/wp-content/uploads/sites/5/2018/08/python_cover_v2.png"
+                                class="w-100 h-100" alt="...">
                         </div>
                         <div class="col-md-6 p-4 ps-md-0">
                             <h5 class="mt-0">หัวข้อ</h5>
